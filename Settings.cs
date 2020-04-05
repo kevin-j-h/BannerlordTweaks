@@ -60,8 +60,7 @@ namespace BannerlordTweaks
         #region Perk tweaks
         [XmlElement]
         public bool TroopPerkXpMultipliedByStackEnabled { get; set; } = true;
-        [XmlElement]
-        public bool TroopPerkXpAmountTweakEnabled { get; set; } = true;
+ 
         [XmlElement]
         public int TroopPerkRaiseTheMeekAmount { get; set; } = 60;
         [XmlElement]
